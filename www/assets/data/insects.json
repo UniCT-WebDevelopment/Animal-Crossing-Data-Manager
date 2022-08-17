@@ -1,0 +1,403 @@
+[
+    {
+        "name": "Farfalla comune",
+        "zone": "In volo",
+        "periods": ["Settembre", "Giugno"],
+        "times": [4, 19]
+    }, {
+        "name": "Farfalla gialla",
+        "zone": "In volo",
+        "periods": ["Marzo", "Giugno", "Settembre", "Ottobre"],
+        "times": [4, 19]
+    }, {
+        "name": "Farfalla tigre",
+        "zone": "In volo",
+        "periods": ["Marzo", "Settembre"],
+        "times": [4, 19]
+    }, {
+        "name": "Farfalla Vanessa Io",
+        "zone": "In volo tra i fiori ibridi",
+        "periods": ["Marzo", "Giugno"],
+        "times": [4, 19]
+    }, {
+        "name": "Graphinum Sarpendon",
+        "zone": "In volo",
+        "periods": ["Aprile", "Agosto"],
+        "times": [4, 19]
+    }, {
+        "name": "Farfalla carta di riso",
+        "zone": "In volo",
+        "periods": [],
+        "times": [8, 19]
+    }, {
+        "name": "Farfalla viola",
+        "zone": "In volo",
+        "periods": ["Maggio", "Agosto"],
+        "times": [4, 19]
+    }, {
+        "name": "Farfalla Monarca",
+        "zone": "In volo",
+        "periods": ["Settembre", "Novembre"],
+        "times": [4, 17]
+    }, {
+        "name": "Farfalla Morfo Blu",
+        "zone": "In volo",
+        "periods": ["Giugno", "Settembre", "Dicembre", "Marzo"],
+        "times": [17, 8]
+    }, {
+        "name": "Farfalla Agrias",
+        "zone": "In volo",
+        "periods": ["Aprile", "Settembre"],
+        "times": [8, 17]
+    }, {
+        "name": "Farfalla Raja Brooke",
+        "zone": "In volo",
+        "periods": ["Dicembre", "Febbraio", "Aprile", "Settembre"],
+        "times": [8, 17]
+    }, {
+        "name": "Farfalla della Regina Alessandra",
+        "zone": "In volo",
+        "periods": ["Maggio", "Settembre"],
+        "times": [8, 16]
+    }, {
+        "name": "Falena",
+        "zone": "In volo vicino le luci",
+        "periods": [],
+        "times": [19, 4]
+    }, {
+        "name": "Farfalla cobra",
+        "zone": "Sugli alberi",
+        "periods": ["Aprile", "Settembre"],
+        "times": [19, 4]
+    }, {
+        "name": "Urania del Madagascar",
+        "zone": "In volo",
+        "periods": ["Aprile", "Settembre"],
+        "times": [8, 16]
+    }, {
+        "name": "Acrida cinerea",
+        "zone": "A terra",
+        "periods": ["Aprile", "Novembre"],
+        "times": [8, 19]
+    }, {
+        "name": "Locusta migratoria",
+        "zone": "A terra",
+        "periods": ["Agosto", "Novembre"],
+        "times": [8, 19]
+    }, {
+        "name": "Locusta",
+        "zone": "A terra",
+        "periods": ["Agosto", "Novembre"],
+        "times": [8, 19]
+    }, {
+        "name": "Cavalletta",
+        "zone": "A terra",
+        "periods": ["Luglio", "Settembre"],
+        "times": [8, 17]
+    }, {
+        "name": "Grillo",
+        "zone": "A terra",
+        "periods": ["Settembre", "Novembre"],
+        "times": [17, 8]
+    }, {
+        "name": "Suzumushi",
+        "zone": "A terra",
+        "periods": ["Settembre", "Ottobre"],
+        "times": [17, 8]
+    }, {
+        "name": "Mantide",
+        "zone": "Sui fiori",
+        "periods": ["Marzo", "Novembre"],
+        "times": [8, 17]
+    }, {
+        "name": "Mantide orchidea",
+        "zone": "In volo tra i fiori bianchi",
+        "periods": ["Marzo", "Novembre"],
+        "times": [8, 17]
+    }, {
+        "name": "Ape operaia",
+        "zone": "In volo",
+        "periods": ["Marzo", "Luglio"],
+        "times": [8, 17]
+    }, {
+        "name": "Vespa",
+        "zone": "Scuotendo gli alberi",
+        "periods": [],
+        "times": []
+    }, {
+        "name": "Cicala marrone",
+        "zone": "Sugli alberi",
+        "periods": ["Luglio", "Agosto"],
+        "times": [8, 17]
+    }, {
+        "name": "Cicala robusta",
+        "zone": "Sugli alberi",
+        "periods": ["Luglio", "Agosto"],
+        "times": [8, 17]
+    }, {
+        "name": "Cicala gigante",
+        "zone": "Sugli alberi",
+        "periods": ["Luglio", "Agosto"],
+        "times": [8, 17]
+    }, {
+        "name": "Cicale sputacchina",
+        "zone": "Sugli alberi",
+        "periods": ["Agosto", "Settembre"],
+        "times": [8, 17]
+    }, {
+        "name": "Cicala notturna",
+        "zone": "Sugli alberi",
+        "periods": ["Luglio", "Agosto"],
+        "times": [4, 8, 16, 19]
+    }, {
+        "name": "Esuvia di cicala",
+        "zone": "Sugli alberi",
+        "periods": ["Luglio", "Agosto"],
+        "times": []
+    }, {
+        "name": "Libellula rossa",
+        "zone": "In volo",
+        "periods": ["Settembre", "Ottobre"],
+        "times": [8, 19]
+    }, {
+        "name": "Libellula depressa",
+        "zone": "In volo",
+        "periods": ["Aprile", "Ottobre"],
+        "times": [8, 17]
+    }, {
+        "name": "Libellula striata",
+        "zone": "In volo",
+        "periods": ["Maggio", "Ottobre"],
+        "times": [8, 17]
+    }, {
+        "name": "Libellula gigante",
+        "zone": "In volo",
+        "periods": ["Novembre", "Febbraio"],
+        "times": []
+    }, {
+        "name": "Lucciola",
+        "zone": "In volo",
+        "periods": ["Giugno", "Settembre", "Dicembre", "Marzo"],
+        "times": [19, 4]
+    }, {
+        "name": "Grillotalpa",
+        "zone": "Scavando (ronzio)",
+        "periods": ["Novembre", "Maggio"],
+        "times": []
+    }, {
+        "name": "Gerride",
+        "zone": "Pelo dell'acqua (stagni e fiumi)",
+        "periods": ["Maggio", "Settembre"],
+        "times": [8, 19]
+    }, {
+        "name": "Ditisco",
+        "zone": "Pelo dell'acqua (stagni e fiumi)",
+        "periods": ["Maggio", "Settembre"],
+        "times": [19, 8]
+    }, {
+        "name": "Cimice gigante d'acqua",
+        "zone": "Pelo dell'acqua (stagni e fiumi)",
+        "periods": ["Aprile", "Settembre"],
+        "times": [19, 8]
+    }, {
+        "name": "Cimice",
+        "zone": "Sui fiori",
+        "periods": ["Marzo", "Ottobre"],
+        "times": []
+    }, {
+        "name": "Catacanthus",
+        "zone": "Sui fiori",
+        "periods": ["Marzo", "Ottobre"],
+        "times": [19, 8]
+    }, {
+        "name": "Coccinella",
+        "zone": "Sui fiori",
+        "periods": ["Marzo", "Giugno", "Ottobre", "Ottobre"],
+        "times": [8, 17]
+    }, {
+        "name": "Cicindela",
+        "zone": "A terra",
+        "periods": ["Febbraio", "Ottobre"],
+        "times": []
+    }, {
+        "name": "Stigmodera",
+        "zone": "Sui ceppi",
+        "periods": ["Aprile", "Agosto"],
+        "times": []
+    }, {
+        "name": "Carabo violino",
+        "zone": "Sui ceppi",
+        "periods": ["Marzo", "Giugno", "Settembre", "Novembre"],
+        "times": []
+    }, {
+        "name": "Tarlo asiatico",
+        "zone": "Sui ceppi",
+        "periods": [],
+        "times": []
+    }, {
+        "name": "Coleottero rosalia batesi",
+        "zone": "Sui ceppi",
+        "periods": ["Maggio", "Settembre"],
+        "times": []
+    }, {
+        "name": "Coleottero Schoenherr",
+        "zone": "Sui ceppi di cocco",
+        "periods": ["Luglio", "Agosto"],
+        "times": []
+    }, {
+        "name": "Scarabeo Stercorario",
+        "zone": "A terra (palle di neve)",
+        "periods": ["Dicembre", "Febbraio"],
+        "times": []
+    }, {
+        "name": "Geotrupidae",
+        "zone": "A terra",
+        "periods": ["Luglio", "Settembre"],
+        "times": []
+    }, {
+        "name": "Dorifera",
+        "zone": "Sugli alberi",
+        "periods": ["Luglio", "Agosto"],
+        "times": [23, 8]
+    }, {
+        "name": "Cetonia dorata",
+        "zone": "Sugli alberi",
+        "periods": ["Giugno", "Agosto"],
+        "times": []
+    }, {
+        "name": "Scarabeo Golia",
+        "zone": "Sulle palme",
+        "periods": ["Luglio", "Agosto"],
+        "times": [17, 8]
+    }, {
+        "name": "Coleottero cervo",
+        "zone": "Sugli alberi",
+        "periods": ["Luglio", "Agosto"],
+        "times": []
+    }, {
+        "name": "Coleottero lucanide",
+        "zone": "Sugli alberi",
+        "periods": ["Luglio", "Agosto"],
+        "times": []
+    }, {
+        "name": "Coleottero gigante",
+        "zone": "Sugli alberi",
+        "periods": ["Luglio", "Agosto"],
+        "times": []
+    }, {
+        "name": "Coleottero arcobaleno",
+        "zone": "Sugli alberi",
+        "periods": ["Giugno", "Settembre"],
+        "times": [19, 8]
+    }, {
+        "name": "Coleottero cyclommatus",
+        "zone": "Sulle palme",
+        "periods": [],
+        "times": [17, 8]
+    }, {
+        "name": "Coleottero dorato",
+        "zone": "Sulle palme",
+        "periods": [],
+        "times": [17, 8]
+    }, {
+        "name": "Coleottero giraffa",
+        "zone": "Sulle palme",
+        "periods": [],
+        "times": [17, 8]
+    }, {
+        "name": "Scarabeo kabutomushi",
+        "zone": "Sugli alberi",
+        "periods": [],
+        "times": [17, 8]
+    }, {
+        "name": "Scarabeo atlas",
+        "zone": "Sulle palme",
+        "periods": [],
+        "times": [17, 8]
+    }, {
+        "name": "Scarabeo elefante",
+        "zone": "Sulle palme",
+        "periods": [],
+        "times": [17, 8]
+    }, {
+        "name": "Scarabeo Ercole",
+        "zone": "Sulle palme",
+        "periods": [],
+        "times": [17, 8]
+    }, {
+        "name": "Insetto stecco",
+        "zone": "Sugli alberi",
+        "periods": ["Luglio", "Novembre"],
+        "times": [4, 8, 17, 19]
+    }, {
+        "name": "Insetto foglia",
+        "zone": "Sotto gli alberi",
+        "periods": ["Luglio", "Settembre"],
+        "times": []
+    }, {
+        "name": "Bruco dal fodero",
+        "zone": "Scuotendo gli alberi",
+        "periods": [],
+        "times": []
+    }, {
+        "name": "Formica",
+        "zone": "Sulle rape marce",
+        "periods": [],
+        "times": []
+    }, {
+        "name": "Granchio paguro",
+        "zone": "Sulla spiaggia",
+        "periods": [],
+        "times": [19, 8]
+    }, {
+        "name": "Ligia exotica",
+        "zone": "Sugli scogli",
+        "periods": [],
+        "times": []
+    }, {
+        "name": "Mosca",
+        "zone": "Sulle rape marce",
+        "periods": [],
+        "times": []
+    }, {
+        "name": "Zanzara",
+        "zone": "In volo",
+        "periods": ["Giugno", "Settembre"],
+        "times": [17, 4]
+    }, {
+        "name": "Pulce",
+        "zone": "Sulla testa degli abitanti",
+        "periods": ["Aprile", "Novembre"],
+        "times": []
+    }, {
+        "name": "Lumaca",
+        "zone": "Sulle rocce",
+        "periods": [],
+        "times": []
+    }, {
+        "name": "Porcellino di terra",
+        "zone": "Colpendo le rocce",
+        "periods": ["Settembre", "Giugno"],
+        "times": [23, 4]
+    }, {
+        "name": "Centopiedi",
+        "zone": "Colpendo le rocce",
+        "periods": ["Settembre", "Giugno"],
+        "times": [16, 23]
+    }, {
+        "name": "Ragno",
+        "zone": "Scuotendo gli alberi",
+        "periods": [],
+        "times": [19, 8]
+    }, {
+        "name": "Tarantola",
+        "zone": "A terra",
+        "periods": ["Novembre", "Aprile"],
+        "times": [19, 4]
+    }, {
+        "name": "Scorpione",
+        "zone": "A terra",
+        "periods": ["Maggio", "Ottobre"],
+        "times": [19, 4]
+    }
+]

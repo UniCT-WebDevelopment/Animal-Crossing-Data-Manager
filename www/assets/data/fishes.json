@@ -1,0 +1,404 @@
+[
+    {
+        "name": "Rodeo",
+        "zone": "Fiume",
+        "periods": ["Novembre", "Marzo"],
+        "times": []
+    }, {
+        "name": "Zacco",
+        "zone": "Fiume",
+        "periods": [],
+        "times": [9, 16]
+    }, {
+        "name": "Carassio",
+        "zone": "Fiume",
+        "periods": [],
+        "times": []
+    }, {
+        "name": "Lasca",
+        "zone": "Fiume",
+        "periods": [],
+        "times": [16, 9]
+    }, {
+        "name": "Carpa",
+        "zone": "Stagno",
+        "periods": [],
+        "times": []
+    }, {
+        "name": "Koi",
+        "zone": "Stagno",
+        "periods": [],
+        "times": [16, 9]
+    }, {
+        "name": "Pesce rosso",
+        "zone": "Stagno",
+        "periods": [],
+        "times": []
+    }, {
+        "name": "Pesce telescopio",
+        "zone": "Stagno",
+        "periods": [],
+        "times": [9, 16]
+    }, {
+        "name": "Ranchu",
+        "zone": "Stagno",
+        "periods": [],
+        "times": [9, 16]
+    }, {
+        "name": "Killifish",
+        "zone": "Stagno",
+        "periods": ["Aprile", "Agosto"],
+        "times": []
+    }, {
+        "name": "Gambero",
+        "zone": "Stagno",
+        "periods": ["Aprile", "Settembre"],
+        "times": []
+    }, {
+        "name": "Apalone ferox",
+        "zone": "Fiume",
+        "periods": ["Agosto", "Settembre"],
+        "times": [16, 9]
+    }, {
+        "name": "Tartaruga azzannatrice",
+        "zone": "Fiume",
+        "periods": ["Aprile", "Ottobre"],
+        "times": [21, 4]
+    }, {
+        "name": "Girino",
+        "zone": "Fiume",
+        "periods": ["Marzo", "Agosto"],
+        "times": []
+    }, {
+        "name": "Rana",
+        "zone": "Stagno",
+        "periods": ["Maggio", "Agosto"],
+        "times": []
+    }, {
+        "name": "Ghiozzo",
+        "zone": "Fiume",
+        "periods": [],
+        "times": [16, 9]
+    }, {
+        "name": "Cobite",
+        "zone": "Fiume",
+        "periods": ["Marzo", "Maggio"],
+        "times": []
+    }, {
+        "name": "Pesce gatto",
+        "zone": "Stagno",
+        "periods": ["Maggio", "Agosto"],
+        "times": [16, 9]
+    }, {
+        "name": "Pesce serpente",
+        "zone": "Stagno",
+        "periods": ["Giugno", "Agosto"],
+        "times": [9, 16]
+    }, {
+        "name": "Pesce persico",
+        "zone": "Fiume",
+        "periods": [],
+        "times": [9, 16]
+    }, {
+        "name": "Perca dorata",
+        "zone": "Fiume",
+        "periods": ["Ottobre", "Marzo"],
+        "times": []
+    }, {
+        "name": "Boccalone",
+        "zone": "Fiume",
+        "periods": [],
+        "times": []
+    }, {
+        "name": "Tilapia",
+        "zone": "Fiume",
+        "periods": ["Giugno", "Ottobre"],
+        "times": []
+    }, {
+        "name": "Luccio nordico",
+        "zone": "Fiume",
+        "periods": ["Settembre", "Dicembre"],
+        "times": []
+    }, {
+        "name": "Pingo",
+        "zone": "Fiume",
+        "periods": ["Dicembre", "Febbraio"],
+        "times": []
+    }, {
+        "name": "Ayu",
+        "zone": "Fiume",
+        "periods": ["Luglio", "Settembre"],
+        "times": []
+    }, {
+        "name": "Salmone giapponese",
+        "zone": "Scogliera del fiume",
+        "periods": ["Marzo", "Giugno", "Settembre", "Novembre"],
+        "times": [16, 9]
+    }, {
+        "name": "Salmerino alpino",
+        "zone": "Scogliera del fiume",
+        "periods": ["Marzo", "Giugno", "Settembre", "Novembre"],
+        "times": [16, 9]
+    }, {
+        "name": "Trota dorata",
+        "zone": "Scogliera del fiume",
+        "periods": ["Marzo", "Maggio", "Settembre", "Novembre"],
+        "times": [16, 9]
+    }, {
+        "name": "Taimen",
+        "zone": "Scogliera del fiume",
+        "periods": ["Dicembre", "Marzo"],
+        "times": [16, 9]
+    }, {
+        "name": "Salmone",
+        "zone": "Foce del fiume",
+        "periods": ["Settembre"],
+        "times": [16, 9]
+    }, {
+        "name": "Salmone reale",
+        "zone": "Foce del fiume",
+        "periods": ["Settembre"],
+        "times": []
+    }, {
+        "name": "Granchio guantato",
+        "zone": "Fiume",
+        "periods": ["Settembre", "Novembre"],
+        "times": [16, 9]
+    }, {
+        "name": "Guppy",
+        "zone": "Fiume",
+        "periods": ["Aprile", "Novembre"],
+        "times": [9, 16]
+    }, {
+        "name": "Garra rufa",
+        "zone": "Fiume",
+        "periods": ["Maggio", "Settembre"],
+        "times": [9, 16]
+    }, {
+        "name": "Pesce angelo",
+        "zone": "Fiume",
+        "periods": ["Maggio", "Ottobre"],
+        "times": [16, 9]
+    }, {
+        "name": "Betta",
+        "zone": "Fiume",
+        "periods": ["Maggio", "Ottobre"],
+        "times": [9, 16]
+    }, {
+        "name": "Pesce neon",
+        "zone": "Fiume",
+        "periods": ["Aprile", "Novembre"],
+        "times": [9, 16]
+    }, {
+        "name": "Pesce arcobaleno",
+        "zone": "Fiume",
+        "periods": ["Maggio", "Ottobre"],
+        "times": [9, 16]
+    }, {
+        "name": "Pesce piranha",
+        "zone": "Fiume",
+        "periods": ["Giugno", "Settembre"],
+        "times": [9, 16, 21, 4]
+    }, {
+        "name": "Arowana",
+        "zone": "Fiume",
+        "periods": ["Giugno", "Settembre"],
+        "times": [4, 9]
+    }, {
+        "name": "Dorado",
+        "zone": "Fiume",
+        "periods": ["Giugno", "Settembre"],
+        "times": [16, 9]
+    }, {
+        "name": "Luccio",
+        "zone": "Fiume",
+        "periods": ["Giugno", "Settembre"],
+        "times": [16, 9]
+    }, {
+        "name": "Piracucù",
+        "zone": "Fiume",
+        "periods": ["Giugno", "Settembre"],
+        "times": [21, 9]
+    }, {
+        "name": "Polipteride",
+        "zone": "Fiume",
+        "periods": ["Giugno", "Settembre"],
+        "times": []
+    }, {
+        "name": "Storione",
+        "zone": "Foce del fiume",
+        "periods": ["Settembre", "Marzo"],
+        "times": []
+    }, {
+        "name": "Cavolinia",
+        "zone": "Mare",
+        "periods": ["Dicembre", "Marzo"],
+        "times": []
+    }, {
+        "name": "Ippocampo",
+        "zone": "Mare",
+        "periods": ["Aprile", "Novembre"],
+        "times": []
+    }, {
+        "name": "Pesce pagliaccio",
+        "zone": "Mare",
+        "periods": ["Aprile", "Settembre"],
+        "times": []
+    }, {
+        "name": "Pesce chirurgo",
+        "zone": "Mare",
+        "periods": ["Aprile", "Settembre"],
+        "times": []
+    }, {
+        "name": "Pesce farfalla",
+        "zone": "Mare",
+        "periods": ["Aprile", "Settembre"],
+        "times": []
+    }, {
+        "name": "Pesce napoleone",
+        "zone": "Mare",
+        "periods": ["Luglio", "Agosto"],
+        "times": [4, 9]
+    }, {
+        "name": "Leone zebrato",
+        "zone": "Mare",
+        "periods": ["Aprile", "Novembre"],
+        "times": []
+    }, {
+        "name": "Pesce palla giapponese",
+        "zone": "Mare",
+        "periods": ["Novembre", "Febbraio"],
+        "times": [21, 4]
+    }, {
+        "name": "Pesce palla",
+        "zone": "Mare",
+        "periods": ["Luglio", "Settembre"],
+        "times": []
+    }, {
+        "name": "Acciuga",
+        "zone": "Mare",
+        "periods": [],
+        "times": [4, 21]
+    }, {
+        "name": "Sgombro",
+        "zone": "Mare",
+        "periods": [],
+        "times": []
+    }, {
+        "name": "Ishidai",
+        "zone": "Mare",
+        "periods": ["Marzo", "Novembre"],
+        "times": []
+    }, {
+        "name": "Spigola",
+        "zone": "Mare",
+        "periods": [],
+        "times": []
+    }, {
+        "name": "Lutiano rosso",
+        "zone": "Mare",
+        "periods": [],
+        "times": []
+    }, {
+        "name": "Platessa",
+        "zone": "Mare",
+        "periods": ["Ottobre", "Aprile"],
+        "times": []
+    }, {
+        "name": "Sogliola",
+        "zone": "Mare",
+        "periods": [],
+        "times": []
+    }, {
+        "name": "Calamaro",
+        "zone": "Mare",
+        "periods": ["Dicembre", "Agosto"],
+        "times": []
+    }, {
+        "name": "Murena",
+        "zone": "Mare",
+        "periods": ["Agosto", "Ottobre"],
+        "times": []
+    }, {
+        "name": "Murena a nastro",
+        "zone": "Mare",
+        "periods": ["Giugno", "Ottobre"],
+        "times": []
+    }, {
+        "name": "Tonno",
+        "zone": "Pontile",
+        "periods": ["Novembre", "Aprile"],
+        "times": []
+    }, {
+        "name": "Marlin blu",
+        "zone": "Pontile",
+        "periods": ["Luglio", "Settembre", "Novembre", "Aprile"],
+        "times": []
+    }, {
+        "name": "Carango gigante",
+        "zone": "Pontile",
+        "periods": ["Maggio", "Ottobre"],
+        "times": []
+    }, {
+        "name": "Lampuga",
+        "zone": "Pontile",
+        "periods": ["Maggio", "Ottobre"],
+        "times": []
+    }, {
+        "name": "Pesce luna",
+        "zone": "Mare",
+        "periods": ["Luglio", "Settembre"],
+        "times": [4, 9]
+    }, {
+        "name": "Manta",
+        "zone": "Mare",
+        "periods": ["Agosto", "Novembre"],
+        "times": [4, 9]
+    }, {
+        "name": "Pesce sega",
+        "zone": "Mare",
+        "periods": ["Giugno", "Settembre"],
+        "times": [16, 9]
+    }, {
+        "name": "Squalo martello",
+        "zone": "Mare",
+        "periods": ["Giugno", "Settembre"],
+        "times": [16, 9]
+    }, {
+        "name": "Squalo bianco",
+        "zone": "Mare",
+        "periods": ["Giugno", "Settembre"],
+        "times": [16, 9]
+    }, {
+        "name": "Squalo balena",
+        "zone": "Mare",
+        "periods": ["Giugno", "Settembre"],
+        "times": []
+    }, {
+        "name": "Remora",
+        "zone": "Mare",
+        "periods": ["Giugno", "Settembre"],
+        "times": []
+    }, {
+        "name": "Pesce abissale",
+        "zone": "Mare",
+        "periods": ["Novembre", "Marzo"],
+        "times": [16, 9]
+    }, {
+        "name": "Pesce remo",
+        "zone": "Mare",
+        "periods": ["Dicembre", "Maggio"],
+        "times": []
+    }, {
+        "name": "Macropinna",
+        "zone": "Mare",
+        "periods": [],
+        "times": [21, 4]
+    }, {
+        "name": "Celacanto",
+        "zone": "Mare",
+        "periods": [],
+        "times": [],
+        "weather": "rain"
+    }
+]

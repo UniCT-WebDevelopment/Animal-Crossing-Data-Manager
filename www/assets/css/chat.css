@@ -1,0 +1,54 @@
+.is-grid {
+    display: grid!important;
+    grid-auto-rows: auto 1fr auto auto;
+}
+
+.chat-border {
+    border: 1px solid teal;
+    border-radius: 5px;
+}
+
+div.notification {
+    width: fit-content;
+    border-radius: 5px;
+}
+
+.is-from-me {
+    align-self: end;
+}
+
+.is-teal {
+    background-color: teal;
+    color: white;
+}
+
+.is-overflow-y-auto {
+    overflow-y: auto;
+} 
+
+.is-overflow-x-auto {
+    overflow-x: auto;
+} 
+
+.newmessage {
+    display: grid;
+    grid-template-areas: 
+    "username username username"
+    "message message message"
+    ". . date";
+    min-width: 300px;
+    padding: unset;
+    padding: 5px;
+}
+
+.is-username {
+    grid-area: username;
+}
+
+.is-message {
+    grid-area: message;
+}
+
+.is-time {
+    grid-area: data;
+}

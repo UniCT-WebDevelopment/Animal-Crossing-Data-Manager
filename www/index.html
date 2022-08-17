@@ -1,0 +1,127 @@
+<!DOCTYPE html>
+<html lang="it">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>AC:NH Manager</title>
+    <link type="text/css" rel="stylesheet" href="assets/css/style.css" />
+    <link rel="manifest" href="assets/data/manifest.json" />
+</head>
+
+<body>
+    <section class="hero is-small is-primary">
+        <div class="hero-body">
+            <p class="title">
+                <a href="/">AC:NH Data Manager</a>
+            </p>
+        
+            <nav class="navbar is-primary" role="navigation" aria-label="main navigation">
+                <div class="navbar-brand">
+                    <a role="button" class="navbar-burger" aria-label="menu" aria-expanded="false" data-target="navbar">
+                        <span aria-hidden="true"></span>
+                        <span aria-hidden="true"></span>
+                        <span aria-hidden="true"></span>
+                    </a>
+                </div>
+
+                <div id="navbar" class="navbar-menu">
+                    <div class="navbar-start">
+                        <a class="navbar-item" href="chat.html"><span class="material-icons">chat_bubble</span>Chatroom</a>
+                        <a class="navbar-item" href="leaderboard.html"><span class="material-icons">leaderboard</span>Classifica</a>
+                        <div class="navbar-item has-dropdown is-hoverable">
+                            <a class="navbar-link"><span class="material-icons">collections_bookmark</span>Enciclopedia</a>
+
+                            <div class="navbar-dropdown has-background-primary">
+                                <a class="navbar-item" href="insects.html">Insetti</a>
+                                <a class="navbar-item" href="fish.html">Pesci</a>
+                                <a class="navbar-item" href="seacreatures.html">Creature marine</a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="navbar-end is-hidden">
+                        <div class="navbar-item has-dropdown is-hoverable">
+                            <a class="navbar-link" id="usernameField">Username</a>
+                            <div class="navbar-dropdown has-background-primary">
+                                <a class="navbar-item" id="adminPanel" href="manage.html">
+                                    <span class="material-icons">manage_accounts</span>
+                                    Gestione
+                                </a>
+                                <a class="navbar-item" href="profile.html">
+                                    <span class="material-icons">account_circle</span>
+                                    Profilo
+                                </a>
+                                <a class="navbar-item">
+                                    <span class="material-icons">logout</span>
+                                    Disconnetti
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </nav>
+        </div>
+    </section>
+    <h1 class="is-size-1 has-text-centered is-hidden" id="welcome">Howdy Username!</h1>
+    <div id="formsContainer" class="is-flex columns is-justify-content-center my-6 is-flex-wrap-wrap">
+        <!-- Login Form -->
+        <div class="box notification is-link is-one-quarter" id="loginDiv">
+            <h1 class="has-text-centered">Login</h1>
+            <div class="field">
+                <p class="control has-icons-left">
+                    <input class="input" type="email" placeholder="Email" name="email">
+                    <span class="icon is-small is-left"><span class="material-icons">email</span></span>
+                </p>
+            </div>
+            <div class="field">
+                <p class="control has-icons-left">
+                    <input class="input" type="password" name="password" placeholder="Password">
+                    <span class="icon is-small is-left"><span class="material-icons">password</span></span>
+                </p>
+            </div>
+            <div class="field">
+                <p class="control">
+                    <button class="button is-success">
+                        <span class="material-icons">login</span>
+                        Login
+                    </button>
+                </p>
+            </div>
+        </div>
+        <div class="divider is-vertical">O</div>
+        <!-- Registration Form -->
+        <div class="is-one-quarter" id="registerDiv">
+            <h1 class="has-text-centered">Registrazione</h1>
+            <div class="field">
+                <p class="control has-icons-left has-icons-right">
+                    <input class="input" type="email" placeholder="Email" name="email">
+                    <span class="icon is-small is-left"><span class="material-icons">email</span></span>
+                </p>
+            </div>
+            <div class="field">
+                <p class="control has-icons-left has-icons-right">
+                    <input class="input" type="username" placeholder="Username" name="username">
+                    <span class="icon is-small is-left"><span class="material-icons">badge</span></span>
+                </p>
+            </div>
+            <div class="field">
+                <p class="control has-icons-left">
+                    <input class="input" type="password" name="password" placeholder="Password">
+                    <span class="icon is-small is-left"><span class="material-icons">password</span></span>
+                </p>
+            </div>
+            <div class="field">
+                <p class="control">
+                    <button class="button is-success">
+                        <span class="material-icons">person_add_alt</span>                            
+                        Registrazione
+                    </button>
+                </p>
+            </div>
+        </div>
+    </div>
+    <script src="assets/js/js-snackbar.min.js"></script>
+    <script type="module" src="assets/js/index.js"></script>
+</body>
+</html>

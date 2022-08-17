@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html lang="it">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>AC:NH Manager</title>
+    <link type="text/css" rel="stylesheet" href="assets/css/style.css" />
+    <link type="text/css" rel="stylesheet" href="assets/css/chat.css" />
+    <link rel="manifest" href="assets/data/manifest.json" />
+</head>
+
+<body class="is-flex is-flex-direction-column">
+    <section class="hero is-small is-primary">
+        <div class="hero-body">
+            <p class="title">
+                <a href="/">AC:NH Data Manager</a>
+            </p>
+        
+            <nav class="navbar is-primary" role="navigation" aria-label="main navigation">
+                <div class="navbar-brand">
+                    <a role="button" class="navbar-burger" aria-label="menu" aria-expanded="false" data-target="navbar">
+                        <span aria-hidden="true"></span>
+                        <span aria-hidden="true"></span>
+                        <span aria-hidden="true"></span>
+                    </a>
+                </div>
+
+                <div id="navbar" class="navbar-menu">
+                    <div class="navbar-start">
+                        <a class="navbar-item has-text-weight-bold" href="chat.html"><span class="material-icons">chat_bubble</span>Chatroom</a>
+                        <a class="navbar-item" href="leaderboard.html"><span class="material-icons">leaderboard</span>Classifica</a>
+                        <div class="navbar-item has-dropdown is-hoverable">
+                            <a class="navbar-link"><span class="material-icons">collections_bookmark</span>Enciclopedia</a>
+                            <div class="navbar-dropdown has-background-primary">
+                                <a class="navbar-item" href="insects.html">Insetti</a>
+                                <a class="navbar-item" href="fish.html">Pesci</a>
+                                <a class="navbar-item" href="seacreatures.html">Creature marine</a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="navbar-end is-hidden">
+                        <div class="navbar-item has-dropdown is-hoverable">
+                            <a class="navbar-link" id="usernameField">Username</a>
+                            <div class="navbar-dropdown has-background-primary">
+                                <a class="navbar-item" id="adminPanel" href="manage.html">
+                                    <span class="material-icons">manage_accounts</span>
+                                    Gestione
+                                </a>
+                                <a class="navbar-item" href="profile.html">
+                                    <span class="material-icons">account_circle</span>
+                                    Profilo
+                                </a>
+                                <a class="navbar-item">
+                                    <span class="material-icons">logout</span>
+                                    Disconnetti
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </nav>
+        </div>
+    </section>
+    <div class="container is-fluid is-grid is-overflow-y-auto">
+        <div id="users" class="is-flex is-align-items-center mt-1 is-overflow-x-auto">
+            <strong class="mr-1">Utenti online</strong>
+            <div class="is-flex is-overflow-x-auto"></div>
+        </div>
+        <div id="messages" class="is-flex is-flex-direction-column is-overflow-y-auto mt-1"></div>
+        <hr class="has-background-info my-2">
+        <div class="is-flex is-flex-direction-column is-justify-content-end is-flex-shrink-0">
+            <div class="columns mb-1 is-flex">
+                <div class="column">
+                    <input class="input" type="text" placeholder="Scrivi un messaggio...">
+                </div>
+                <div class="column is-narrow has-text-centered">
+                    <button class="button">
+                        <span class="material-icons">send</span>
+                        Invia
+                    </button>
+                </div>
+            </div>
+        </div>
+    </div>
+    <script src="https://cdn.socket.io/4.5.0/socket.io.min.js" integrity="sha384-7EyYLQZgWBi67fBtVxw60/OWl1kjsfrPFcaU0pp0nAh+i8FD068QogUvg85Ewy1k" crossorigin="anonymous"></script>
+    <script src="assets/js/js-snackbar.min.js"></script>
+    <script type="module" src="assets/js/user.js"></script>
+    <script src="assets/js/chat.js"></script>
+</body>
+</html>

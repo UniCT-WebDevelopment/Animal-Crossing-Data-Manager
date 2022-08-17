@@ -1,0 +1,133 @@
+<!DOCTYPE html>
+<html lang="it">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>AC:NH Manager</title>
+    <link type="text/css" rel="stylesheet" href="assets/css/style.css" />
+    <link rel="manifest" href="assets/data/manifest.json" />
+</head>
+
+<body>
+    <section class="hero is-small is-primary">
+        <div class="hero-body">
+            <p class="title">
+                <a href="/">AC:NH Data Manager</a>
+            </p>
+            <nav class="navbar is-primary" role="navigation" aria-label="main navigation">
+                <div class="navbar-brand">
+                    <a role="button" class="navbar-burger" aria-label="menu" aria-expanded="false" data-target="navbar">
+                        <span aria-hidden="true"></span>
+                        <span aria-hidden="true"></span>
+                        <span aria-hidden="true"></span>
+                    </a>
+                </div>
+
+                <div id="navbar" class="navbar-menu">
+                    <div class="navbar-start">
+                        <a class="navbar-item" href="chat.html"><span class="material-icons">chat_bubble</span>Chatroom</a>
+                        <a class="navbar-item" href="leaderboard.html"><span class="material-icons">leaderboard</span>Classifica</a>
+                        <div class="navbar-item has-dropdown is-hoverable">
+                            <a class="navbar-link"><span class="material-icons">collections_bookmark</span>Enciclopedia</a>
+
+                            <div class="navbar-dropdown has-background-primary">
+                                <a class="navbar-item" href="insects.html">Insetti</a>
+                                <a class="navbar-item" href="fish.html">Pesci</a>
+                                <a class="navbar-item" href="seacreatures.html">Creature marine</a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="navbar-end">
+                        <div class="navbar-item has-dropdown is-hoverable">
+                            <a class="navbar-link" id="usernameField">Username</a>
+                            <div class="navbar-dropdown has-background-primary">
+                                <a class="navbar-item" id="adminPanel" href="manage.html">
+                                    <span class="material-icons">manage_accounts</span>
+                                    Gestione
+                                </a>
+                                <a class="navbar-item has-text-weight-bold" href="profile.html">
+                                    <span class="material-icons">account_circle</span>
+                                    Profilo
+                                </a>
+                                <a class="navbar-item">
+                                    <span class="material-icons">logout</span>
+                                    Disconnetti
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </nav>
+        </div>
+    </section>
+    <div class="card">
+        <div class="card-content">
+            <div class="media">
+                <div class="media-content">
+                    <p class="title is-4">Username</p>
+                    <div class="subtitle field">
+                        <p class="control has-icons-left has-icons-right">
+                            <input class="input is-static max-content" type="email" value="me@example.com" readonly>
+                            <span class="icon is-small is-left"><span class="material-icons">email</span></span>
+                        </p>
+                    </div>
+                </div>
+            </div>
+            <div class="content">
+                <span data="insects">🦋 </span><progress class="progress is-primary" value="0" max="80"></progress>
+                <span data="fishes">🐟 </span><progress class="progress is-primary" value="0" max="80"></progress>
+                <span data="sea_creatures">🦐 </span><progress class="progress is-primary" value="0" max="40"></progress>
+                <div class="field is-horizontal">
+                    <div class="field-label is-normal">
+                        <label class="label has-text-left">Codice amico</label>
+                    </div>
+                    <div class="field-body">
+                        <div class="field">
+                            <p class="control has-icons-left">
+                                <input class="input is-static max-content" type="text" minLength="17" maxLength="17" value="SW-....-....-...." readonly>
+                                <span class="icon is-small is-left"><span class="material-icons">diversity_3</span></span>
+                            </p>
+                        </div>
+                    </div>
+                </div>
+                <div id="passwordContainer" class="field is-horizontal is-hidden">
+                    <div class="field-label is-normal">
+                        <label class="label has-text-left">Password</label>
+                    </div>
+                    <div class="field-body">
+                        <div class="field">
+                            <p class="control has-icons-left has-icons-right">
+                                <input class="input is-static is-danger max-content" type="password" minLength="8" value="Password" readonly>
+                                <span class="icon is-small is-left"><span class="material-icons">password</span></span>
+                            </p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <footer class="card-footer">
+                <a href="#" class="card-footer-item has-text-link">
+                    <span class="material-icons">notifications_active</span>
+                    Abilita notifiche push
+                </a>
+                <a href="#" class="card-footer-item has-text-success is-hidden">
+                    <span class="material-icons">save</span>
+                    Salva modifiche
+                </a>
+                <a href="#" class="card-footer-item has-text-info">
+                    <span class="material-icons">edit</span>
+                    Modifica
+                </a>
+                <a href="#" class="card-footer-item has-text-danger">
+                    <span class="material-icons">person_remove</span>
+                    Cancella profilo
+                </a>
+            </footer>
+        </div>
+    </div>
+    <script src="assets/js/js-snackbar.min.js"></script>
+    <script type="module" src="assets/js/user.js"></script>
+    <script type="module" src="assets/js/profile.js"></script>
+</body>
+</html>

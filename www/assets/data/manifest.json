@@ -1,0 +1,15 @@
+{
+    "$schema": "https://json.schemastore.org/web-manifest-combined.json",
+    "name": "Animal Crossing: New Horizons Data Manager",
+    "id": "ACNHManager",
+    "short_name": "ACNH Data Manager",
+    "start_url": ".",
+    "display": "standalone",
+    "background_color": "#5AB379",
+    "theme_color": "#00d1b2",
+    "icons": [{
+      "src": "/assets/img/icon.png",
+      "sizes": "1250x1250",
+      "type": "image/png"
+    }]
+}

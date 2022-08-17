@@ -1,0 +1,107 @@
+@import './bulma/bulma.min.css';
+@import './bulma/bulma-checkboxes.min.css';
+@import './bulma/bulma-divider-min.css';
+@import './js-snackbar.min.css';
+@import url("https://fonts.googleapis.com/icon?family=Material+Icons");
+
+:root {
+	color-scheme: dark;
+	--primary-color: #18191a;
+	--secondary-color: #242526;
+	--third-color: #3a3b3c;
+	--text: #C9C9C9;
+}
+
+html, body, .h100 {
+    height: 100vh;
+}
+
+thead th, tbody > tr > * {
+    text-align: center!important;
+}
+
+.is-overflow-x {
+    overflow-x: auto;
+}
+
+.max-content {
+    width: max-content;
+}
+
+tbody button.is-warning {
+    width: 230px;
+}
+
+.material-icons {
+    margin-right: 0.5rem;
+}
+
+.card-content input[type="text"], .card-content input[type="password"] {
+    width: 250px;
+}
+
+@media screen and (max-width: 750px) {
+    .divider.is-vertical {
+        flex-direction: row;
+    }
+
+    .divider.is-vertical::before, .divider.is-vertical::after {
+        content: "";
+        display: block;
+        flex: 1px;
+        height: 1px;
+    }
+
+    .divider:not(.is-left):before {
+        margin-bottom: 0px;
+        margin-right: 10px;
+    }
+    
+    .divider:not(.is-left)::after {
+        margin-top: 0px;
+        margin-left: 10px;
+    }
+
+    #formsContainer {
+        margin: 5rem;
+        flex-direction: column;
+    }
+}
+
+@media screen and (prefers-color-scheme: dark) {
+    .input, tr, tbody > tr:hover, tbody > tr:focus, section.is-primary, 
+    .navbar-dropdown.has-background-primary, button {
+        background-color: var(--secondary-color)!important;
+    }
+    
+    html, body, .card-content, thead > tr, tr:nth-child(2n), .box,
+    #navbar {
+        background-color: var(--primary-color);
+    }
+
+    html, body, .title, .input, .label, th, td, strong, input::placeholder,
+    button, #users button, span[data="insects"], span[data="fishes"], span[data="sea_creatures"] {
+        color: var(--text)!important;
+    }
+
+    tbody > tr:hover, tbody > tr:focus {
+        opacity: 0.9;
+    }
+
+    .navbar-item:hover, .navbar-item:focus, .navbar-item.has-dropdown:hover > .navbar-link, 
+    .navbar-item.has-dropdown:focus > .is-link, .notification.is-link {
+        background-color: var(--third-color)!important;
+    } 
+
+    button.is-warning {
+        color: #ffd970!important;
+    }
+
+    button.is-info {
+        color: #3082c5!important;
+    }
+
+    button.is-danger {
+        color: #f14668!important;
+    }
+}

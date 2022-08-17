@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="it">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>AC:NH Manager</title>
+    <link type="text/css" rel="stylesheet" href="assets/css/style.css" />
+    <link rel="manifest" href="assets/data/manifest.json" />
+</head>
+
+<body>
+    <section class="hero is-small is-primary">
+        <div class="hero-body">
+            <p class="title">
+                <a href="/">AC:NH Data Manager</a>
+            </p>
+            <nav class="navbar is-primary" role="navigation" aria-label="main navigation">
+                <div class="navbar-brand">
+                    <a role="button" class="navbar-burger" aria-label="menu" aria-expanded="false" data-target="navbar">
+                        <span aria-hidden="true"></span>
+                        <span aria-hidden="true"></span>
+                        <span aria-hidden="true"></span>
+                    </a>
+                </div>
+
+                <div id="navbar" class="navbar-menu">
+                    <div class="navbar-start">
+                        <a class="navbar-item" href="chat.html"><span class="material-icons">chat_bubble</span>Chatroom</a>
+                        <a class="navbar-item" href="leaderboard.html"><span class="material-icons">leaderboard</span>Classifica</a>
+                        <div class="navbar-item has-dropdown is-hoverable">
+                            <a class="navbar-link"><span class="material-icons">collections_bookmark</span>Enciclopedia</a>
+
+                            <div class="navbar-dropdown has-background-primary">
+                                <a class="navbar-item" href="insects.html">Insetti</a>
+                                <a class="navbar-item" href="fish.html">Pesci</a>
+                                <a class="navbar-item" href="seacreatures.html">Creature marine</a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="navbar-end">
+                        <div class="navbar-item has-dropdown is-hoverable">
+                            <a class="navbar-link" id="usernameField">Username</a>
+                            <div class="navbar-dropdown has-background-primary">
+                                <a class="navbar-item has-text-weight-bold" id="adminPanel" href="manage.html">
+                                    <span class="material-icons">manage_accounts</span>
+                                    Gestione
+                                </a>
+                                <a class="navbar-item" href="profile.html">
+                                    <span class="material-icons">account_circle</span>
+                                    Profilo
+                                </a>
+                                <a class="navbar-item">
+                                    <span class="material-icons">logout</span>
+                                    Disconnetti
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </nav>
+        </div>
+    </section>
+    <div class="is-flex is-justify-content-center">
+        <button class="button is-primary m-2">
+            <span class='material-icons'>notifications_active</span>Manda notifiche
+        </button>
+    </div>
+    <div class="is-overflow-x">
+        <table class="table is-striped is-narrow is-hoverable is-fullwidth">
+            <thead>
+                <th>Utente</th>
+                <th></th>
+                <th></th>
+                <th></th>
+            </thead>
+            <tbody></tbody>
+        </table>
+    </div>
+    <script src="assets/js/js-snackbar.min.js"></script>
+    <script type="module" src="assets/js/user.js"></script>
+    <script type="module" src="assets/js/manage.js"></script>
+</body>
+</html>

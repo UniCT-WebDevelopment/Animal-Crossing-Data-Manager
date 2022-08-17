@@ -1,0 +1,203 @@
+[
+    {
+        "name": "Alga wakame",
+        "zone": "Grande e stazionaria",
+        "periods": ["Gennaio", "Luglio", "Ottobre", "Dicembre"],
+        "times": []
+    }, {
+        "name": "Riccio di mare",
+        "zone": "Piccola e molto lenta",
+        "periods": ["Maggio", "Settembre"],
+        "times": []
+    }, {
+        "name": "Ostrica pinctada",
+        "zone": "Piccola e mediamente veloce",
+        "periods": [],
+        "times": []
+    }, {
+        "name": "Granchio ferro di cavallo",
+        "zone": "Media e mediamente veloce",
+        "periods": ["Luglio", "Settembre"],
+        "times": [21, 4]
+    }, {
+        "name": "Ananas di mare",
+        "zone": "Piccola e lenta",
+        "periods": ["Aprile", "Agosto"],
+        "times": []
+    }, {
+        "name": "Gambero Mantide",
+        "zone": "Piccola e mediamente veloce",
+        "periods": [],
+        "times": [16, 9]
+    }, {
+        "name": "Abalone",
+        "zone": "Media e mediamente veloce",
+        "periods": ["Giugno", "Gennaio"],
+        "times": [16, 9]
+    }, {
+        "name": "Cozza",
+        "zone": "Piccola e lenta",
+        "periods": ["Giugno", "Dicembre"],
+        "times": []
+    }, {
+        "name": "Riccio matita",
+        "zone": "Media e mediamente veloce",
+        "periods": ["Maggio", "Settembre"],
+        "times": [16, 9]
+    }, {
+        "name": "Vite di mare",
+        "zone": "Piccola e stazionaria",
+        "periods": ["Giugno", "Settembre"],
+        "times": []
+    }, {
+        "name": "Anemone di mare",
+        "zone": "Grande e stazionaria",
+        "periods": [],
+        "times": []
+    }, {
+        "name": "Tridacna gigante",
+        "zone": "Grande e molto veloce",
+        "periods": ["Maggio", "Settembre"],
+        "times": []
+    }, {
+        "name": "Dente di cane",
+        "zone": "Minuscola e stazionaria",
+        "periods": [],
+        "times": []
+    }, {
+        "name": "Anguilla di giardino",
+        "zone": "Piccola e lenta",
+        "periods": ["Maggio", "Ottobre"],
+        "times": [4, 21]
+    }, {
+        "name": "Granchio Gazami",
+        "zone": "Media e mediamente veloce",
+        "periods": ["Giugno", "Novembre"],
+        "times": []
+    }, {
+        "name": "Capasanta",
+        "zone": "Piccola e molto lenta",
+        "periods": ["Gennaio", "Luglio", "Ottobre", "Dicembre"],
+        "times": []
+    }, {
+        "name": "Medusa Aurelia",
+        "zone": "Grande e stazionaria",
+        "periods": [],
+        "times": []
+    }, {
+        "name": "Stella marina",
+        "zone": "Piccola e molto lenta",
+        "periods": [],
+        "times": []
+    }, {
+        "name": "Nudibranchi",
+        "zone": "Minuscola e molto lenta",
+        "periods": [],
+        "times": []
+    }, {
+        "name": "Lumaca turbante",
+        "zone": "Piccola e lenta",
+        "periods": ["Marzo", "Maggio", "Settembre", "Dicembre"],
+        "times": []
+    }, {
+        "name": "Buccino",
+        "zone": "Piccola e lenta",
+        "periods": [],
+        "times": []
+    }, {
+        "name": "Polpo",
+        "zone": "Media e lenta",
+        "periods": [],
+        "times": []
+    }, {
+        "name": "Gambero Black Tiger",
+        "zone": "Media e lenta",
+        "periods": ["Giugno", "Settembre"],
+        "times": [16, 9]
+    }, {
+        "name": "Isopodo gigante",
+        "zone": "Media e molto veloce",
+        "periods": ["Luglio", "Ottobre"],
+        "times": [9, 16, 21, 4]
+    }, {
+        "name": "Nautilus",
+        "zone": "Media e mediamente veloce",
+        "periods": ["Marzo", "Giugno"],
+        "times": [16, 9]
+    }, {
+        "name": "Granciporro",
+        "zone": "Media e mediamente veloce",
+        "periods": ["Dicembre", "Maggio"],
+        "times": []
+    }, {
+        "name": "Calamaro Lucciola",
+        "zone": "Minuscola e lenta",
+        "periods": ["Marzo", "Giugno"],
+        "times": [21, 4]
+    }, {
+        "name": "Verme piatto",
+        "zone": "Minuscola e molto lenta",
+        "periods": ["Agosto", "Settembre"],
+        "times": [16, 9]
+    }, {
+        "name": "Astice",
+        "zone": "Grande e veloce",
+        "periods": ["Aprile", "Giugno", "Dicembre", "Gennaio"],
+        "times": []
+    }, {
+        "name": "Ostrica",
+        "zone": "Piccola e lenta",
+        "periods": ["Settembre", "Febbraio"],
+        "times": []
+    }, {
+        "name": "Granchio gigante",
+        "zone": "Grande e molto veloce",
+        "periods": ["Novembre", "Marzo"],
+        "times": []
+    }, {
+        "name": "Cetriolo di mare",
+        "zone": "Media e molto lenta",
+        "periods": ["Novembre", "Aprile"],
+        "times": []
+    }, {
+        "name": "Porcellino di mare",
+        "zone": "Piccola e molto veloce",
+        "periods": ["Novembre", "Febbraio"],
+        "times": [16, 9]
+    }, {
+        "name": "Polpo ombrello",
+        "zone": "Piccola e veloce",
+        "periods": ["Marzo", "Maggio", "Settembre", "Novembre"],
+        "times": []
+    }, {
+        "name": "Calamaro vampiro",
+        "zone": "Media e molto veloce",
+        "periods": ["Maggio", "Agosto"],
+        "times": [16, 9]
+    }, {
+        "name": "Granchio della neve",
+        "zone": "Grande e veloce",
+        "periods": ["Novembre", "Aprile"],
+        "times": []
+    }, {
+        "name": "Granchio gigante del Giappone",
+        "zone": "Gigantesca e molto veloce",
+        "periods": ["Marzo", "Aprile"],
+        "times": []
+    }, {
+        "name": "Aragosta Mediterranea",
+        "zone": "Grande e molto veloce",
+        "periods": ["Ottobre", "Dicembre"],
+        "times": [21, 4]
+    }, {
+        "name": "Gamberetto boreale",
+        "zone": "Piccola e lenta",
+        "periods": ["Settembre", "Febbraio"],
+        "times": [16, 9]
+    }, {
+        "name": "Cestello di Venere",
+        "zone": "Media e veloce",
+        "periods": ["Ottobre", "Febbraio"],
+        "times": []
+    }
+]
