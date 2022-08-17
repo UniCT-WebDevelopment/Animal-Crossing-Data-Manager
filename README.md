@@ -32,5 +32,17 @@ To add it to the project, set into the `.env` the `GOOGLE_APPLICATION_CREDENTIAL
 Navigate to your Firebase project settings and add a new web application, just fulfill the empty `FIREBASE_CONFIG` values in `config.js` and `firebase-messaging-sw.js` with the firebaseConfig constant available in your project settings.
 If you would like to enable also push notifications, navigate to Cloud Messaging inside your project settings and enable the Firebase Cloud Messaging API. Just copy the key in Web Push Certificates inside `config.js`.
 
+### Environment
+In order to make easier the customization, a `.env` file is used, here are the available options:
+| Name | Description |
+| ---- | ----------- |
+| SSL_KEY | Path to your private key |
+| SSL_CERT | Path to your certificate or fullchain |
+| DB_URL | Address of your Firebase Database (the same in the FIREBASE_CONFIG constant) |
+| PORT | An alternative port to the default one |
+
+### Running 
+In the end, a simple `npm install .` to install dependencies followed by `node .` should be enough to run the project.
+
 ## Credits
 This project has been developed by [Domenico G. Blanco](https://github.com/domenicoblanco) with ☕️, hoping to help other Animal Crossing players to track their informations easily.
